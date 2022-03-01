@@ -53,3 +53,10 @@ The input variables are
  
 ![](img/airflow_2.JPG)
 
+**Trial Run Result**
+---
+To test the pipeline, I go to LevelCapGaming's channel and retrieve 12 videos for each of my runs. The result is the following when I filter on just one video
+
+![](img/airflow_3.JPG)
+
+As expected, the pipeline is able to generate time series record of view count, like count, comment count
