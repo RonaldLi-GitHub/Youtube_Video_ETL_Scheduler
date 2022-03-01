@@ -46,7 +46,7 @@ The input variables are
   * airflow db init
   * airflow webserver -p 8080
   * airflow scheduler (on a separate Ubuntu session)
-* The airflow UI will appear in the brower 
+* The airflow UI will appear in the browser 
 * Here are some screenshots
 ![](img/airflow_1.JPG)
  
