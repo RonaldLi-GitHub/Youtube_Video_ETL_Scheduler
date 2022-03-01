@@ -38,5 +38,18 @@ The input variables are
   2. Load youtube data - the dataframe generated from Step 2 will be loaded into the table in the PostgreSQL Database that was set up in Step 1
 * The dag file allows the user to select a starting date, schedule interval, time zone. In this project, I select an interval of daily, so that the scheduler runs everyday at 12:00am pacific time
 
+**Step 4: Start Airflow Scheduler**
+---
+* To run Airflow on Windows, the user will need to install Ubuntu on Windows Subsystem for Linux
+* [extract_transform_youtube_data.py](https://github.com/RonaldLi-GitHub/Youtube_Video_ETL_Scheduler/blob/main/extract_transform_youtube_data.py) and [dag.py](https://github.com/RonaldLi-GitHub/Youtube_Video_ETL_Scheduler/blob/main/dag.py) should be in the same folder
+* On the command prompt, I enter the following commands
+  * airflow db init
+  * airflow webserver -p 8080
+  * airflow scheduler (on a separate Ubuntu session)
+  * The airflow UI will appear in the brower 
+* Here are some screenshots
+![](img/airflow_1.JPG)
  
+ 
+![](img/airflow_2.JPG)
 
