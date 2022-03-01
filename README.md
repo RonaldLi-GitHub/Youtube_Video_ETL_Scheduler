@@ -55,8 +55,8 @@ The input variables are
 
 **Trial Run Result**
 ---
-To test the pipeline, I go to LevelCapGaming's channel and retrieve 12 videos for each of my runs. The result is the following when I filter on just one video
+To test the pipeline, I go to LevelCapGaming's channel and retrieve 12 videos and schedule the workflow to run on 3 consecutive days. I then retrieve the data from the database. The result is the following when I filter on just one video
 
 ![](img/airflow_3.JPG)
 
-As expected, the pipeline is able to generate time series record of view count, like count, comment count
+As expected, the pipeline is able to generate time series record of view count, like count, comment count.
