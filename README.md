@@ -28,7 +28,7 @@ The input variables are
   2. Use the playlist id to retrive video id
   3. Locate all video ids from each channel(Note: each page shows a max of 50 videos, thus nextPageToken is required to load the next page, the process continues until there is no more nextPageToken on the current page.)
   4. For each video id located, retrieve all relevant information such as publish time, view count, like count, etc...
-* Each single run of the template will generate a pickle file containg the dataframe
+* Each single run of the template will generate a pickle file containing the dataframe
 
 **Step 3: Prepare Dag File to Schedule the Workflow with Airflow**
 ---
